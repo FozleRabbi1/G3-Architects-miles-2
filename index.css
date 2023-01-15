@@ -340,6 +340,14 @@
         margin-top: 280px;
     }
 }
+@media screen and (max-width:400px) {
+    .lovely-features {
+        margin-top: 280px;
+    }
+    .lovely-features .lovely-features-text .titleAndPara{
+        padding-top: 50px;
+    }
+}
 
 /* ======================================== Responsive lovely-features code End ======================================== */
 
