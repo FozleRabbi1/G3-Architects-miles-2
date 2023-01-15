@@ -423,6 +423,65 @@
 
 /* ======= some-facts code End ======= */
 
+.about > h2{
+    border-bottom: 2px solid rgb(255, 27, 65);
+    border-radius: 30px;
+    width: 300px;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding: 10px 0;
+    color: red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} 
+.about-me{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.about-me .image-div{
+    width: 400px;
+    height: 500px;
+}
+.about-me img{
+    width: 100%;
+    height: 100%;
+}
+.about-me .about-me-info{
+    width: 100%;
+    margin-top: 20px;
+}
+.about-me .about-me-info h2{
+    color: red;
+    font-style: italic;
+}   
+.about-me .about-me-info button{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 0 20px 0 20px;   
+
+}
+.about-me .about-me-info .more-info li{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 5px 0;
+}
+@media screen and (max-width:576px) {
+    .about-me{
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+    }    
+}
 
 /* ======= sponsers code start ======= */
 .sponsers{
@@ -454,5 +513,13 @@
     }
 }
 /* ======= sponsers code End ======= */
+
+footer{
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 100px ;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+}
 
 
