@@ -441,8 +441,7 @@
 }
 
 .about-me .image-div {
-    width: 400px;
-    height: 500px;
+    height: 550px;
 }
 
 .about-me img {
@@ -453,6 +452,7 @@
 .about-me .about-me-info {
     width: 100%;
     margin-top: 20px;
+    padding-left: 20px ;
 }
 
 .about-me .about-me-info h2 {
@@ -483,6 +483,9 @@
     .about-me {
         grid-template-columns: 1fr;
         margin-bottom: 50px;
+    }
+    .about-me .about-me-info{
+        padding-left: 0px;
     }
 }
 
