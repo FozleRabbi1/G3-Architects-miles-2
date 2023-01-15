@@ -497,6 +497,14 @@
         padding-left: 0px;
     }
 }
+@media screen and (max-width:450px) {
+    .about-me .image-div {
+        height: 400px;
+    }
+    .about-me img {
+        padding: 0px;
+    }
+}
 
 /* ======================================== About me code end ======================================== */
 
