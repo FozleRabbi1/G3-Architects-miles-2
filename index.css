@@ -20,7 +20,6 @@
 .header {
     background-color: rgb(101, 240, 240);
     width: 100%;
-    /* height: 100vh; */
     padding: 0 80px;
 }
 
@@ -49,7 +48,7 @@
     text-decoration: none;
 }
 
-/* ======= Nav responsive code start ======= */
+/* ======================================== Nav responsive code start ======================================== */
 @media screen and (max-width:576px) {
     .header {
         padding: 0;
@@ -73,9 +72,9 @@
     }
 }
 
-/* ======= Nav responsive code End ======= */
+/* ======================================== Nav responsive code End ======================================== */
 
-/* ======= banner code Start ======= */
+/* ======================================== banner code Start ======= =================================*/
 
 .banner {
     padding-bottom: 20px;
@@ -116,7 +115,7 @@
 }
 
 
-/* ======= banner responsive code start ======= */
+/* ======================================== banner responsive code start ======================================== */
 
 @media screen and (max-width:576px) {
     .banner {
@@ -149,16 +148,16 @@
     }
 }
 
-/* ======= banner responsive code End ======= */
+/* ======================================== banner responsive code End ======================================== */
 
-/* ======= banner code End ======= */
+/* ======================================== banner code End ======================================== */
 
 .main {
     padding: 0 80px;
 }
 
 
-/* ============== quick-features code Start =============== */
+/* =============================================== quick-features code Start ================================================ */
 
 .quick-features {
     display: flex;
@@ -214,7 +213,7 @@
 }
 
 
-/* ======= quick-features Respondive code Start ======= */
+/* ======================================== quick-features Respondive code Start ======================================== */
 
 @media screen and (max-width:576px) {
     .main {
@@ -240,16 +239,15 @@
     }
 }
 
-/* ======= quick-features Respondive code End ======= */
+/* ======================================== quick-features Respondive code End ======================================== */
 
-/* ======= quick-features code End ======= */
+/* ======================================== quick-features code End ======================================== */
 
 
 
-/* ======= lovely-features code Start ======= */
+/* ======================================== lovely-features code Start ======================================== */
 .lovely-features {
     display: flex;
-    /* background-color: aqua; */
     margin-bottom: 200px;
 }
 
@@ -269,10 +267,6 @@
     color: rgb(48, 47, 47);
     font-weight: 400;
     font-size: .8em;
-}
-
-.lovely-features .lovely-features-text .articles {
-    /* padding: 10px 15px; */
 }
 
 .lovely-features .lovely-features-text .articles div {
@@ -295,7 +289,7 @@
     width: 100%;
 }
 
-/* ======= lovely-features code End ======= */
+/* ======================================== lovely-features code End ======================================== */
 
 .exprienct {
     width: 250px;
@@ -310,7 +304,7 @@
     margin-bottom: 50px;
 }
 
-/* ======= Responsive lovely-features code Start ======= */
+/* ======================================== Responsive lovely-features code Start ======================================== */
 
 @media screen and (max-width:576px) {
 
@@ -347,10 +341,10 @@
     }
 }
 
-/* ======= Responsive lovely-features code End ======= */
+/* ======================================== Responsive lovely-features code End ======================================== */
 
 
-/* ======= some-facts code Start ======= */
+/* ======================================== some-facts code Start ======================================== */
 
 .some-facts {
     box-shadow: rgba(58, 238, 238, 0.5) 3px 3px 16px 0px inset, rgba(64, 228, 240, 0.5) -3px -3px 16px 1px inset;
@@ -389,13 +383,10 @@
 
 .some-facts .facts-divs>div:hover {
     transform: rotate(360deg);
-    /* background-color: rgb(0, 204, 255); */
     box-shadow: rgba(12, 75, 75, 0.5) 3px 3px 16px 0px inset, rgba(25, 86, 90, 0.5) -3px -3px 16px 1px inset;
-    /* color: rgb(46, 42, 42); */
-    color: red;
     color: aqua;
     text-shadow: 1px 1px 5px rgb(66, 65, 65);
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -404,6 +395,7 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     .some-facts>p {
         padding: 0px 0 20px 10px;
         width: 100%;
@@ -412,18 +404,21 @@
     .some-facts .facts-divs {
         width: 100%;
         flex-direction: column;
-        justify-content: center ;
+        justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .some-facts .facts-divs>div{
+
+    .some-facts .facts-divs>div {
         width: 65%;
     }
 }
 
-/* ======= some-facts code End ======= */
+/* ======================================== some-facts code End ======================================== */
 
-.about > h2{
+/* ================================================ About-me code start ================================ */
+
+.about>h2 {
     border-bottom: 2px solid rgb(255, 27, 65);
     border-radius: 30px;
     width: 300px;
@@ -432,8 +427,9 @@
     padding: 10px 0;
     color: red;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-} 
-.about-me{
+}
+
+.about-me {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -443,23 +439,28 @@
     padding: 10px;
     border-radius: 10px;
 }
-.about-me .image-div{
+
+.about-me .image-div {
     width: 400px;
     height: 500px;
 }
-.about-me img{
+
+.about-me img {
     width: 100%;
     height: 100%;
 }
-.about-me .about-me-info{
+
+.about-me .about-me-info {
     width: 100%;
     margin-top: 20px;
 }
-.about-me .about-me-info h2{
+
+.about-me .about-me-info h2 {
     color: red;
     font-style: italic;
-}   
-.about-me .about-me-info button{
+}
+
+.about-me .about-me-info button {
     border: none;
     padding: 10px 20px;
     margin-top: 10px;
@@ -468,58 +469,65 @@
     font-style: italic;
     color: red;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 0 20px 0 20px;   
+    border-radius: 0 20px 0 20px;
 
 }
-.about-me .about-me-info .more-info li{
-        font-size: 12px;
-        font-weight: 400;
-        margin: 5px 0;
+
+.about-me .about-me-info .more-info li {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px 0;
 }
+
 @media screen and (max-width:576px) {
-    .about-me{
+    .about-me {
         grid-template-columns: 1fr;
         margin-bottom: 50px;
-    }    
+    }
 }
 
-/* ======= sponsers code start ======= */
-.sponsers{
+/* ======================================== About me code end ======================================== */
+
+/* ======================================== sponsers code start ======================================== */
+.sponsers {
     text-align: center;
     margin-bottom: 100px;
 }
-.sponsers h2::first-letter{
+
+.sponsers h2::first-letter {
     font-size: 2.5rem;
     color: red;
-    font-style: italic ;
+    font-style: italic;
 }
-.sponsers p{
+
+.sponsers p {
     padding: 10px 0 30px;
 }
-.sponsers .logo{
+
+.sponsers .logo {
     display: flex;
     justify-content: space-between;
 }
 
 @media screen and (max-width:576px) {
-    .sponsers .logo{
+    .sponsers .logo {
         flex-direction: column;
         gap: 20px;
         align-items: center;
-    }    
-    .sponsers .logo img{
+    }
+
+    .sponsers .logo img {
         width: 35%;
         height: 60px;
     }
 }
-/* ======= sponsers code End ======= */
 
-footer{
-    background-color: rgba(0,0,0,0.8);
-    margin-bottom: 100px ;
+/* ======================================== sponsers code End ======================================== */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 100px;
     padding: 30px 20px;
     text-align: center;
     color: white;
 }
-
-
