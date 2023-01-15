@@ -310,7 +310,7 @@
 
     .lovely-features {
         flex-direction: column;
-        margin-top: 180px;
+        margin-top: 250px;
     }
 
     .lovely-features .lovely-features-text {
@@ -335,9 +335,9 @@
 
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:450px) {
     .lovely-features {
-        margin-top: 250px;
+        margin-top: 280px;
     }
 }
 
