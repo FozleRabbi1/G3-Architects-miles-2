@@ -5,11 +5,23 @@
     font-family: sans-serif;
 }
 
+.button {
+    margin-top: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: rgba(3, 156, 156, 0.9) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
+    color: rgb(82, 81, 81);
+    background-color: transparent;
+}
+
 .header {
     background-color: rgb(101, 240, 240);
     width: 100%;
-    height: 100vh;
-    padding: 0 50px;
+    /* height: 100vh; */
+    padding: 0 80px;
 }
 
 .header nav {
@@ -45,7 +57,7 @@
 
     .header nav {
         flex-direction: column;
-        border-radius: 0;
+        border-radius: 0 0 10px 10px;
     }
 
     .header nav h3 {
@@ -61,4 +73,386 @@
     }
 }
 
-/* ======= Nav responsive code start ======= */
+/* ======= Nav responsive code End ======= */
+
+/* ======= banner code Start ======= */
+
+.banner {
+    padding-bottom: 20px;
+}
+
+.banner .banner-text {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.banner .banner-text h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.banner .banner-text p {
+    font-size: 14px;
+    color: rgb(85, 84, 84);
+}
+
+.banner .banner-text .button {
+    margin-top: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: rgba(3, 156, 156, 0.9) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
+    color: rgb(82, 81, 81);
+    background-color: transparent;
+}
+
+.banner .banner-image img {
+    width: 100%;
+    height: 80vh;
+}
+
+
+/* ======= banner responsive code start ======= */
+
+@media screen and (max-width:576px) {
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner .banner-text {
+        width: 100%;
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+    .banner .banner-text h2 {
+        font-size: 30px;
+    }
+
+    .banner .banner-text p {
+        padding-top: 5px;
+    }
+
+    .banner .banner-image img {
+        margin-top: 20px;
+    }
+
+    .banner .banner-text button {
+        padding: 10px 15px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+/* ======= banner responsive code End ======= */
+
+/* ======= banner code End ======= */
+
+.main {
+    padding: 0 80px;
+}
+
+
+/* ============== quick-features code Start =============== */
+
+.quick-features {
+    display: flex;
+    margin: 100px 0;
+    padding: 0 50px;
+}
+
+.quick-features .features-images-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.quick-features .features-images-div img {
+    width: 100%;
+}
+
+.quick-features .feature-text {
+    position: relative;
+    width: 100%;
+}
+
+.quick-features .feature-text .text {
+    width: 85%;
+    padding-left: 50px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+}
+
+.quick-features .feature-text .text h2 {
+    font-size: 34px;
+    color: gray;
+}
+
+.quick-features .feature-text .text .black-text {
+    color: black;
+}
+
+.quick-features .feature-text .text .tomato-text {
+    color: tomato;
+    display: block;
+}
+
+.quick-features .feature-text .text p {
+    color: darkgray;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+.quick-features .feature-text .text .button {
+    box-shadow: rgba(38, 41, 41, 0.2) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.2) -3px -3px 6px 1px inset;
+}
+
+
+/* ======= quick-features Respondive code Start ======= */
+
+@media screen and (max-width:576px) {
+    .main {
+        padding: 0 20px;
+    }
+
+    .quick-features {
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .quick-features .features-images-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quick-features .feature-text .text {
+        padding: 20px 0;
+    }
+
+    .quick-features .feature-text .text .button {
+        margin-bottom: 10px;
+    }
+}
+
+/* ======= quick-features Respondive code End ======= */
+
+/* ======= quick-features code End ======= */
+
+
+
+/* ======= lovely-features code Start ======= */
+.lovely-features {
+    display: flex;
+    /* background-color: aqua; */
+    margin-bottom: 200px;
+}
+
+.lovely-features .lovely-features-text {
+    width: 100%;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.lovely-features .lovely-features-text .titleAndPara h2 {
+    border-left: 3px solid tomato;
+    padding-left: 8px;
+}
+
+.lovely-features .lovely-features-text .titleAndPara p {
+    margin: 10px 0 15px;
+    color: rgb(48, 47, 47);
+    font-weight: 400;
+    font-size: .8em;
+}
+
+.lovely-features .lovely-features-text .articles {
+    /* padding: 10px 15px; */
+}
+
+.lovely-features .lovely-features-text .articles div {
+    padding: 25px 30px;
+    margin: 5px 0;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.lovely-features .lovely-features-text .articles div p {
+    color: rgb(48, 47, 47);
+    padding-top: 5px;
+}
+
+.lovely-features .lovely-features-image {
+    z-index: -1;
+}
+
+.lovely-features .lovely-features-image img {
+    width: 100%;
+}
+
+/* ======= lovely-features code End ======= */
+
+.exprienct {
+    width: 250px;
+    height: 120px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: -280px 58%;
+    margin-bottom: 50px;
+}
+
+/* ======= Responsive lovely-features code Start ======= */
+
+@media screen and (max-width:576px) {
+
+    .lovely-features {
+        flex-direction: column;
+        margin-top: 180px;
+    }
+
+    .lovely-features .lovely-features-text {
+        padding: 50px 0 10px 0;
+    }
+
+    .lovely-features .lovely-features-text .articles div {
+        padding: 20px 25px;
+        margin-bottom: 20px;
+    }
+
+    .lovely-features .lovely-features-text .articles div p {
+        font-size: 14px;
+    }
+
+    .exprienct {
+        width: 250px;
+        height: 120px;
+        margin: -180px auto;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .lovely-features {
+        margin-top: 250px;
+    }
+}
+
+/* ======= Responsive lovely-features code End ======= */
+
+
+/* ======= some-facts code Start ======= */
+
+.some-facts {
+    box-shadow: rgba(58, 238, 238, 0.5) 3px 3px 16px 0px inset, rgba(64, 228, 240, 0.5) -3px -3px 16px 1px inset;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.some-facts h2 {
+    padding: 50px 0 5px 10px;
+}
+
+.some-facts>p {
+    padding: 0px 0 50px 10px;
+    width: 40%;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(48, 47, 47);
+    word-spacing: 7px;
+}
+
+.some-facts .facts-divs {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.some-facts .facts-divs>div {
+    border: 1px solid rgb(206, 202, 202);
+    text-align: center;
+    width: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px gray;
+    transition: all 1.2s;
+}
+
+.some-facts .facts-divs>div:hover {
+    transform: rotate(360deg);
+    /* background-color: rgb(0, 204, 255); */
+    box-shadow: rgba(12, 75, 75, 0.5) 3px 3px 16px 0px inset, rgba(25, 86, 90, 0.5) -3px -3px 16px 1px inset;
+    /* color: rgb(46, 42, 42); */
+    color: red;
+    color: aqua;
+    text-shadow: 1px 1px 5px rgb(66, 65, 65);
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+@media screen and (max-width:576px) {
+    .some-facts {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .some-facts>p {
+        padding: 0px 0 20px 10px;
+        width: 100%;
+    }
+
+    .some-facts .facts-divs {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        gap: 20px;
+    }
+    .some-facts .facts-divs>div{
+        width: 65%;
+    }
+}
+
+/* ======= some-facts code End ======= */
+
+
+/* ======= sponsers code start ======= */
+.sponsers{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sponsers h2::first-letter{
+    font-size: 2.5rem;
+    color: red;
+    font-style: italic ;
+}
+.sponsers p{
+    padding: 10px 0 30px;
+}
+.sponsers .logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:576px) {
+    .sponsers .logo{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }    
+    .sponsers .logo img{
+        width: 35%;
+        height: 60px;
+    }
+}
+/* ======= sponsers code End ======= */
+
+
